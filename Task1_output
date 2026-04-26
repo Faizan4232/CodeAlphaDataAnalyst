@@ -1,0 +1,122 @@
+TASK 1 OUTPUT
+PS C:\Users\Faizan Ahmad\Desktop\CodeAlpha_DataAnalytics> python -u "c:\Users\Faizan Ahmad\Desktop\CodeAlpha_DataAnalytics\Task1\task1_web_scraping.py"
+
+Connecting to website for Faizan Ahmad...
+Dataset collected successfully from web.
+Total Rows: 891
+Total Columns: 12
+
+========== FIRST 5 ROWS ==========
+   PassengerId  Survived  Pclass                                               Name     Sex   Age  SibSp  Parch            Ticket     Fare Cabin Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  22.0      1      0         A/5 21171   7.2500   NaN        S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1      0          PC 17599  71.2833   C85        C
+2            3         1       3                             Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3101282   7.9250   NaN        S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0            113803  53.1000  C123        S
+4            5         0       3                           Allen, Mr. William Henry    male  35.0      0      0            373450   8.0500   NaN        S
+
+========== SHAPE ==========
+(891, 12)
+
+========== DATA TYPES ==========
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+========== MISSING VALUES ==========
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+
+========== KEY INSIGHTS ==========
+Overall Survival Rate : 38.38%
+Female Survival Rate  : 74.2%
+Male Survival Rate    : 18.89%
+Average Fare Paid     : 32.2
+
+Dataset saved at: faizan_task1_outputs\titanic_scraped_data.csv
+
+========== TASK COMPLETED ==========
+Web scraping completed successfully.
+Output Folder: faizan_task1_outputs
+Prepared by Faizan Ahmad (faizan4232)
+PS C:\Users\Faizan Ahmad\Desktop\CodeAlpha_DataAnalytics> python -u "c:\Users\Faizan Ahmad\Desktop\CodeAlpha_DataAnalytics\Task1\task1_web_scraping.py"
+
+Connecting to website for Faizan Ahmad...
+Dataset collected successfully from web.
+Total Rows: 891
+Total Columns: 12
+
+========== FIRST 5 ROWS ==========
+   PassengerId  Survived  Pclass                                               Name     Sex   Age  SibSp  Parch            Ticket     Fare Cabin Embarked
+0            1         0       3                            Braund, Mr. Owen Harris    male  22.0      1      0         A/5 21171   7.2500   NaN        S
+1            2         1       1  Cumings, Mrs. John Bradley (Florence Briggs Th...  female  38.0      1      0          PC 17599  71.2833   C85        C
+2            3         1       3                             Heikkinen, Miss. Laina  female  26.0      0      0  STON/O2. 3101282   7.9250   NaN        S
+3            4         1       1       Futrelle, Mrs. Jacques Heath (Lily May Peel)  female  35.0      1      0            113803  53.1000  C123        S
+4            5         0       3                           Allen, Mr. William Henry    male  35.0      0      0            373450   8.0500   NaN        S
+
+========== SHAPE ==========
+(891, 12)
+
+========== DATA TYPES ==========
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+dtype: object
+
+========== MISSING VALUES ==========
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+dtype: int64
+
+========== KEY INSIGHTS ==========
+Overall Survival Rate : 38.38%
+Female Survival Rate  : 74.2%
+Male Survival Rate    : 18.89%
+Average Fare Paid     : 32.2
+
+Dataset saved at: faizan_task1_outputs\titanic_scraped_data.csv
+
+========== TASK COMPLETED ==========
+Web scraping completed successfully.
+Output Folder: faizan_task1_outputs
+Prepared by Faizan Ahmad (faizan4232)
+PS C:\Users\Faizan Ahmad\Desktop\CodeAlpha_DataAnalytics>   
